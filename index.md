@@ -7,6 +7,8 @@
 - Artifacts
 - Git, github
 
+## CONFIGURTACIÓN DE ENTORNO
+
 ## Glosario
 -   frontend
 -   backend
@@ -29,6 +31,7 @@ https://www.aitmpl.com/skills
 ##  BONUS TRACK
 -   PPT
 -   Imágenes
+-   MAKE / n8n
 
 #   EJEMPLO DESDE 0
 

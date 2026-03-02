@@ -115,6 +115,7 @@ Material recurrente y adicional:
 
 - **PPT**: Diapositivas.
 - **Imágenes**: Generación y manipulación visual con IA.
+- **MAKE / n8n**: Automatizaciones no-code/low-code conectadas a IAs.
 
 ---
 layout: section

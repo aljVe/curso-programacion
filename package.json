@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "build": "slidev build slides.md"
+  },
   "dependencies": {
+    "@slidev/cli": "^52.14.0",
     "@slidev/theme-default": "^0.25.0"
   }
 }

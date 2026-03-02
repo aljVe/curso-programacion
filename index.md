@@ -1,38 +1,24 @@
-#   IA programacón
-##  INTRO
-- IA general , herramientas 
-- IDE
-- lenguajes más comunes
-- Intranet de tu hospital
-- Artifacts
-- Git, github
+# Programa Formativo: Programación en Inteligencia Artificial y Aplicaciones Prácticas para Usuarios Avanzados
 
-## CONFIGURTACIÓN DE ENTORNO
+**Objetivo:** Aprender a usar la Inteligencia Artificial para programar y automatizar tareas en tu entorno laboral, sin necesidad de conocimientos técnicos previos.
 
-## Glosario
--   frontend
--   backend
--   etc
+## Temario
 
-##  Arquitectura
+**1. Fundamentos y Entorno**
+*   Conceptos de IA y herramientas principales.
+*   Lenguajes de programación e IDEs.
+*   Configuración del entorno local (Git, GitHub, Artifacts).
+*   Glosario técnico básico (Frontend, Backend, Arquitectura, etc).
 
-##  AGENTES
--   antigravity
--   codex, claude code
+**2. Agentes IA y Conectividad**
+*   Uso de agentes avanzados (Antigravity, Codex, Claude Code).
+*   Conocer el lenguaje de programación de tu hospital para poder integrar proyectos.
+*   Ampliación de funciones con Skills y MCP.
 
-##  MCP
+**3. Proyectos Prácticos**
+*   **Proyecto desde Cero:** Desarrolla una aplicación paso a paso.
+*   **Hackathon Clínico:** Crea y presenta un prototipo para resolver un problema de tu día a día.
 
-##  SKILLS
-https://github.com/anthropics/skills
-https://www.aitmpl.com/skills
-
-##  Google AI studio 
-
-##  BONUS TRACK
--   PPT
--   Imágenes
--   MAKE / n8n
-
-#   EJEMPLO DESDE 0
-
-#   "HACKATON"
+**4. Otros usos**
+*   Google AI Studio y generación de contenido (PPTs, Imágenes).
+*   Automatización sin código (MAKE, n8n).

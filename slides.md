@@ -4,17 +4,17 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Presentación IA Programación
+  ## Programa Formativo: Programación en IA
   Creada con Slidev
 drawings:
   persist: false
 transition: slide-left
-title: IA Programación
+title: IA en Programación y Entornos Clínicos
 ---
 
-# IA programacón
+# Programación en Inteligencia Artificial 
 
-Bienvenido al curso de IA aplicada a la programación.
+Aplicaciones Prácticas para Usuarios Avanzados
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -24,112 +24,54 @@ Bienvenido al curso de IA aplicada a la programación.
 
 ---
 
-# INTRO
+# Objetivo del Curso
 
-Introducción a los conceptos básicos:
-
-- **IA general, herramientas**: Panorámica del ecosistema.
-- **IDE**: Entornos de Desarrollo Integrados.
-- **Lenguajes más comunes**: Python, JavaScript, TypeScript, etc.
-- **Intranet de tu hospital**: Casos de uso internos.
-- **Artifacts**: Estructuras de contenido manejadas por IA.
-- **Git, github**: Control de versiones.
+Aprender a usar la Inteligencia Artificial para **programar y automatizar tareas** en tu entorno laboral, sin necesidad de conocimientos técnicos previos.
 
 ---
 
-# Glosario
+# 1. Fundamentos y Entorno
 
-Conceptos clave que usaremos a lo largo del curso:
+Bases para empezar a desarrollar con IA:
 
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-- **Frontend**
-  - Interfaz de usuario
-  - HTML, CSS, JS
-  - Frameworks (Vue, React)
-
-</div>
-<div>
-
-- **Backend**
-  - Servidor
-  - Base de datos
-  - APIs
-  - Autenticación
-
-</div>
-</div>
+- **Conceptos de IA y herramientas principales**: Panorámica del ecosistema.
+- **Lenguajes de programación e IDEs**: Entornos de Desarrollo Integrados y código.
+- **Configuración del entorno local**: Git, GitHub, Artifacts.
+- **Glosario técnico básico**: Frontend, Backend, Arquitectura, etc.
 
 ---
 
-# Arquitectura
+# 2. Agentes IA y Conectividad
 
-Diseño y estructura de aplicaciones modernas potenciadas con IA.
+Sistemas autónomos e integración con tu entorno:
 
-- Componentes
-- Flujo de datos
-- Integración de modelos
-
----
-
-# AGENTES
-
-Sistemas de IA autónomos que realizan tareas complejas:
-
-- **antigravity**: Agente avanzado de coding.
-- **codex, claude code**: Herramientas integradas en el IDE.
+- **Uso de agentes avanzados**: Antigravity, Codex, Claude Code.
+- **Tu hospital**: Conocer el lenguaje de programación de tu hospital para poder integrar proyectos.
+- **Ampliación de funciones**: Uso avanzado de Skills y MCP (Model Context Protocol).
 
 ---
 
-# MCP
+# 3. Proyectos Prácticos
 
-**Model Context Protocol**
+De la teoría a la acción:
 
-Estándar para conectar sistemas de IA con herramientas externas y fuentes de datos.
-Permite a los modelos acceder a información de forma segura.
-
----
-
-# SKILLS
-
-Habilidades y extensiones modulares para agentes.
-
-Recursos:
-- [github.com/anthropics/skills](https://github.com/anthropics/skills)
-- [www.aitmpl.com/skills](https://www.aitmpl.com/skills)
-
----
-layout: center
----
-
-# Google AI studio
-
-Entorno de desarrollo y prototipado rápido para construir aplicaciones con IA generativa.
+- **Proyecto desde Cero**: Desarrolla una aplicación paso a paso.
+- **Hackathon Clínico**: Crea y presenta un prototipo para resolver un problema de tu día a día.
 
 ---
 
-# BONUS TRACK
+# 4. Otros usos
 
-Material recurrente y adicional:
+Impulsando la productividad:
 
-- **PPT**: Diapositivas.
-- **Imágenes**: Generación y manipulación visual con IA.
-- **MAKE / n8n**: Automatizaciones no-code/low-code conectadas a IAs.
-
----
-layout: section
----
-
-# EJEMPLO DESDE 0
-
-Construyendo un proyecto completo paso a paso.
+- **Generación de contenido**: Google AI Studio (PPTs, Imágenes).
+- **Automatización**: Herramientas low-code / no-code (MAKE, n8n).
 
 ---
 layout: center
 class: text-center
 ---
 
-# "HACKATON"
+# ¡Manos a la obra!
 
-¡Es hora de programar!
+¿Empezamos?

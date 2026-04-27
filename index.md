@@ -13,7 +13,7 @@
 **2. Agentes de IA y Flujos de Trabajo**
 *   Uso de asistentes avanzados de programación (Antigravity, Cursor, Claude Code).
 *   Cómo conectar tus aplicaciones con el mundo real (APIs y bases de datos).
-*   Dando superpoderes a tu IA: Uso de Skills y MCP (Model Context Protocol).
+*   Ampliación de capacidades: Uso de Skills y MCP (Model Context Protocol).
 
 **3. Proyectos Prácticos**
 *   **Creación paso a paso:** Desarrolla tu primera aplicación web funcional.

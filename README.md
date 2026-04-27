@@ -202,4 +202,17 @@ Este curso es material educativo creado para profesionales clínicos.
 
 ---
 
+<!-- TEMP: style branches for review — delete this section once a style is chosen -->
+## 🎨 Variantes de Estilo (revisión pendiente)
+
+| Rama | Estilo | Vista previa |
+|------|--------|--------------|
+| `main` | Neural Clinic — oscuro, cyan, Cormorant Garamond | `npx slidev slides.md` |
+| `feature/alternative-styles` | Retro-Futurista — neón, scanlines, IBM Plex | `git checkout feature/alternative-styles && npx slidev slides.md` |
+| `feature/data-scientific` | Científico — cuadrícula, verde/naranja, IBM Plex | `git checkout feature/data-scientific && npx slidev slides.md` |
+| `feature/minimalist-editorial` | Minimalista — crema/salvia, Merriweather serif | `git checkout feature/minimalist-editorial && npx slidev slides.md` |
+<!-- END TEMP -->
+
+---
+
 **¡Gracias por ser parte de este viaje hacia la programación con IA! 🚀**

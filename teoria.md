@@ -1,4 +1,4 @@
-# Teoría Completa: Programación en IA para Profesionales Clínicos
+# Teoría Completa: Programación en IA desde Cero
 
 Bienvenido al material teórico del curso. Aquí desarrollaremos en detalle cada uno de los puntos del temario para que sirva como guía de referencia permanente.
 
@@ -15,7 +15,7 @@ Bienvenido al material teórico del curso. Aquí desarrollaremos en detalle cada
 ### 1.3 Configuración del entorno local
 *Guía paso a paso: Instalación de Git, configuración de GitHub y uso de herramientas de asistencia.*
 
-### 1.4 Glosario técnico básico para clínicos
+### 1.4 Glosario técnico de supervivencia
 *   **Frontend**: Lo que el usuario ve (la interfaz).
 *   **Backend**: La lógica y los datos detrás de la interfaz.
 *   **API**: El puente de comunicación entre sistemas.
@@ -28,8 +28,8 @@ Bienvenido al material teórico del curso. Aquí desarrollaremos en detalle cada
 ### 2.1 Uso de agentes avanzados
 *Cómo interactuar con agentes como Antigravity, Codex y Claude Code para delegar tareas complejas.*
 
-### 2.2 Integración en el entorno hospitalario
-*Análisis de los lenguajes predominantes en sistemas de salud (HL7, SQL, etc.) y cómo conectar nuestras herramientas.*
+### 2.2 Conexión con el mundo real (APIs y bases de datos)
+*Cómo lograr que nuestras aplicaciones se conecten con otros servicios web, envíen y reciban datos externos.*
 
 ### 2.3 Ampliación de funciones: Skills y MCP
 *Uso del Model Context Protocol para dar "superpoderes" a la IA y permitirle interactuar con archivos y bases de datos locales.*
@@ -38,18 +38,18 @@ Bienvenido al material teórico del curso. Aquí desarrollaremos en detalle cada
 
 ## 3. Proyectos Prácticos
 
-### 3.1 Desarrollo desde Cero
-*Metodología para plantear un problema clínico y resolverlo mediante código asistido por IA.*
+### 3.1 Creación paso a paso
+*Metodología para plantear un problema desde cero y construir una aplicación web funcional asistida por IA.*
 
-### 3.2 Hackathon Clínico
-*Guía para la creación de prototipos rápidos y presentación de soluciones.*
+### 3.2 Hackathon de ideas
+*Guía para la creación de prototipos rápidos y presentación de soluciones a problemas del día a día.*
 
 ---
 
 ## 4. Otros usos y Automatización
 
 ### 4.1 Google AI Studio y Generación de Contenido
-*Técnicas avanzadas de prompting para la creación de materiales educativos y clínicos.*
+*Técnicas avanzadas de prompting para la creación de presentaciones, imágenes y textos.*
 
 ### 4.2 Automatización sin código (MAKE, n8n)
-*Cómo conectar aplicaciones (Email, Calendario, HCE) sin escribir una sola línea de código.*
+*Cómo conectar aplicaciones (Email, Calendarios, Bases de datos) sin escribir una sola línea de código.*

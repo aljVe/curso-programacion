@@ -14,7 +14,7 @@ title: IA en Programación y Entornos Clínicos
 
 # Programación en Inteligencia Artificial 
 
-Aplicaciones Prácticas para Usuarios Avanzados
+Aplicaciones Prácticas desde Cero
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -37,7 +37,7 @@ Bases para empezar a desarrollar con IA:
 - **Conceptos de IA y herramientas principales**: Panorámica del ecosistema.
 - **Lenguajes de programación e IDEs**: Entornos de Desarrollo Integrados y código.
 - **Configuración del entorno local**: Git, GitHub, Artifacts.
-- **Glosario técnico básico**: Frontend, Backend, Arquitectura, etc.
+- **Glosario técnico de supervivencia**: Frontend, Backend, APIs, etc.
 
 ---
 
@@ -46,7 +46,7 @@ Bases para empezar a desarrollar con IA:
 Sistemas autónomos e integración con tu entorno:
 
 - **Uso de agentes avanzados**: Antigravity, Codex, Claude Code.
-- **Tu hospital**: Conocer el lenguaje de programación de tu hospital para poder integrar proyectos.
+- **Conexión con el mundo real**: Cómo integrar APIs y bases de datos externas en tus proyectos.
 - **Ampliación de funciones**: Uso avanzado de Skills y MCP (Model Context Protocol).
 
 ---
@@ -56,7 +56,7 @@ Sistemas autónomos e integración con tu entorno:
 De la teoría a la acción:
 
 - **Proyecto desde Cero**: Desarrolla una aplicación paso a paso.
-- **Hackathon Clínico**: Crea y presenta un prototipo para resolver un problema de tu día a día.
+- **Hackathon de Ideas**: Crea y presenta un prototipo para resolver un problema de tu día a día.
 
 ---
 

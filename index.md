@@ -1,24 +1,24 @@
-# Programa Formativo: Programación en Inteligencia Artificial y Aplicaciones Prácticas para Usuarios Avanzados
+# Programa Formativo: Programación con Inteligencia Artificial desde Cero
 
-**Objetivo:** Aprender a usar la Inteligencia Artificial para programar y automatizar tareas en tu entorno laboral, sin necesidad de conocimientos técnicos previos.
+**Objetivo:** Aprender a usar la Inteligencia Artificial para programar y automatizar tareas en tu entorno laboral, asumiendo cero conocimientos técnicos previos.
 
 ## Temario
 
-**1. Fundamentos y Entorno**
-*   Conceptos de IA y herramientas principales.
-*   Lenguajes de programación e IDEs.
-*   Configuración del entorno local (Git, GitHub, Artifacts).
-*   Glosario técnico básico (Frontend, Backend, Arquitectura, etc).
+**1. Fundamentos y Entorno de Trabajo**
+*   ¿Qué es la IA aplicada a la programación? Herramientas principales.
+*   Lenguajes de programación básicos y Entornos de Desarrollo (IDEs).
+*   Cómo organizar tu código: Git, GitHub y manejo de repositorios.
+*   Glosario técnico de supervivencia (Frontend, Backend, APIs, etc).
 
-**2. Agentes IA y Conectividad**
-*   Uso de agentes avanzados (Antigravity, Codex, Claude Code).
-*   Conocer el lenguaje de programación de tu hospital para poder integrar proyectos.
-*   Ampliación de funciones con Skills y MCP.
+**2. Agentes de IA y Flujos de Trabajo**
+*   Uso de asistentes avanzados de programación (Antigravity, Cursor, Claude Code).
+*   Cómo conectar tus aplicaciones con el mundo real (APIs y bases de datos).
+*   Dando superpoderes a tu IA: Uso de Skills y MCP (Model Context Protocol).
 
 **3. Proyectos Prácticos**
-*   **Proyecto desde Cero:** Desarrolla una aplicación paso a paso.
-*   **Hackathon Clínico:** Crea y presenta un prototipo para resolver un problema de tu día a día.
+*   **Creación paso a paso:** Desarrolla tu primera aplicación web funcional.
+*   **Hackathon de ideas:** Diseña y programa un prototipo para resolver un problema de tu día a día.
 
-**4. Otros usos**
-*   Google AI Studio y generación de contenido (PPTs, Imágenes).
-*   Automatización sin código (MAKE, n8n).
+**4. Automatización y Herramientas No-Code**
+*   Generación de contenido y diseño asistido por IA (Presentaciones, imágenes).
+*   Automatización de tareas repetitivas sin escribir código (MAKE, n8n).

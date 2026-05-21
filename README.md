@@ -20,6 +20,7 @@ Este curso está diseñado para profesionales clínicos que desean aprender a us
 
 **2. Agentes IA y Conectividad**
 *   Uso de agentes avanzados (Antigravity, Codex, Claude Code).
+*   Modalidades actuales de Antigravity: aplicación central, CLI, SDK e IDE.
 *   Conocer el lenguaje de programación de tu hospital para poder integrar proyectos.
 *   Ampliación de funciones con Skills y MCP.
 

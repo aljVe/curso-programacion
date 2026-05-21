@@ -12,6 +12,7 @@
 
 **2. Agentes de IA y Flujos de Trabajo**
 *   Uso de asistentes avanzados de programación (Antigravity, Cursor, Claude Code).
+*   Modalidades actuales de Antigravity: aplicación central, CLI, SDK e IDE.
 *   Cómo conectar tus aplicaciones con el mundo real (APIs y bases de datos).
 *   Ampliación de capacidades: Uso de Skills y MCP (Model Context Protocol).
 

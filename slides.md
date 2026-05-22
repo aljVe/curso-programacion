@@ -398,6 +398,38 @@ Para clase: datos ficticios, no identificables.
 
 ---
 
+# Markdown: texto para humanos e IA
+
+Markdown es texto plano con estructura.
+
+No es programar. Es escribir de forma que:
+
+- Una persona pueda leerlo.
+- Git pueda guardar cambios.
+- GitHub pueda mostrarlo bonito.
+- Un agente de IA pueda entender contexto.
+
+Ejemplos del curso: `README.md`, `slides.md`, `teoria.md`.
+
+---
+
+# Chuleta Markdown
+
+| Quiero escribir | Uso |
+|-----------------|-----|
+| Título | `# Título` |
+| Sección | `## Sección` |
+| Lista | `- elemento` |
+| Pasos | `1. paso` |
+| Negrita | `**importante**` |
+| Código o campo | `` `edad` `` |
+| Enlace | `[texto](https://...)` |
+| Tarea | `- [ ] revisar` |
+
+Un buen `.md` es contexto reutilizable para la IA.
+
+---
+
 # Principios de seguridad
 
 1. Usar datos ficticios o anonimizados.
@@ -944,6 +976,7 @@ layout: section
 
 # Documentación para seguir
 
+- [Guía Markdown para médicos](./guia-markdown-medicos.md) para escribir contexto claro para agentes.
 - [Slidev](https://sli.dev/) para editar esta presentación.
 - [Git](https://git-scm.com/book/en/v2) y [GitHub Pull Requests](https://docs.github.com/en/pull-requests).
 - [Node.js](https://nodejs.org/docs/latest/api/), [npm](https://docs.npmjs.com/) y [Python](https://docs.python.org/3/).

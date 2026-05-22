@@ -16,6 +16,7 @@ Este curso está diseñado para profesionales clínicos que desean aprender a us
 *   Conceptos de IA y herramientas principales.
 *   Lenguajes de programación e IDEs.
 *   Configuración del entorno local (Git, GitHub, Artifacts).
+*   Markdown como lenguaje simple para documentar y dar contexto a agentes IA.
 *   Glosario técnico básico (Frontend, Backend, Arquitectura, etc).
 
 **2. Agentes IA y Conectividad**
@@ -182,6 +183,7 @@ Lee la [documentación oficial de Slidev](https://sli.dev) para más opciones.
 
 ## 📚 Recursos Útiles
 
+- [Guía Markdown para médicos](./guia-markdown-medicos.md)
 - [Documentación Slidev](https://sli.dev)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)

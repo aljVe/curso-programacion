@@ -8,6 +8,7 @@
 *   ¿Qué es la IA aplicada a la programación? Herramientas principales.
 *   Lenguajes de programación básicos y Entornos de Desarrollo (IDEs).
 *   Cómo organizar tu código: Git, GitHub y manejo de repositorios.
+*   Markdown como forma simple de guardar contexto para humanos y agentes IA.
 *   Glosario técnico de supervivencia (Frontend, Backend, APIs, etc).
 
 **2. Agentes de IA y Flujos de Trabajo**

@@ -927,6 +927,99 @@ La complejidad debe aparecer cuando el problema la justifica, no antes.
 
 ---
 
+#### F. Markdown: escritura estructurada para humanos y agentes
+
+Markdown es una forma sencilla de escribir texto estructurado. No es un lenguaje de programación. Es una manera de escribir documentos usando símbolos muy simples para indicar títulos, listas, tablas, enlaces o fragmentos literales.
+
+Ejemplos de archivos Markdown en este repositorio:
+
+- `README.md`: presentación del curso y guía técnica del repositorio.
+- `slides.md`: diapositivas de Slidev.
+- `teoria.md`: documento teórico maestro.
+- `index.md`: temario resumido.
+- `guia-markdown-medicos.md`: guía rápida y chuleta para alumnos.
+
+Para médicos no técnicos, Markdown es especialmente útil porque se parece a escribir un informe ordenado: tiene títulos, apartados, listas, tablas y notas. La diferencia es que, al ser texto plano, también es fácil de leer por herramientas de IA, sistemas de control de versiones y plataformas como GitHub.
+
+##### Por qué Markdown ayuda a los agentes de IA
+
+Los agentes funcionan mejor cuando reciben contexto claro. Un documento Markdown bien escrito separa:
+
+- Objetivo.
+- Contexto.
+- Datos de entrada.
+- Restricciones.
+- Riesgos.
+- Criterios de aceptación.
+- Pasos de verificación.
+
+Esto reduce ambigüedad. No es lo mismo pedir:
+
+> "Hazme una app para pacientes."
+
+que entregar a la IA un archivo con esta estructura:
+
+```markdown
+# Prototipo educativo de consulta preoperatoria
+
+## Objetivo
+
+Registrar pacientes ficticios y mostrar una tabla resumen.
+
+## Restricciones
+
+- No usar datos reales.
+- No guardar información identificable.
+- Mantener una arquitectura simple.
+
+## Criterios de aceptación
+
+- El formulario se entiende por médicos no técnicos.
+- La tabla muestra solo datos ficticios.
+- El prototipo puede explicarse en clase.
+```
+
+##### Chuleta mínima
+
+| Necesidad | Markdown |
+|-----------|----------|
+| Título principal | `# Título` |
+| Sección | `## Sección` |
+| Lista | `- Elemento` |
+| Pasos | `1. Paso` |
+| Negrita | `**importante**` |
+| Texto literal | `` `edad` `` |
+| Enlace | `[texto](https://...)` |
+| Tarea pendiente | `- [ ] Revisar` |
+| Cita | `> Texto destacado` |
+
+##### Ejemplo sanitario seguro
+
+```markdown
+# Dataset ficticio para clase
+
+## Variables
+
+- Edad.
+- ASA.
+- Tipo de cirugía.
+- Hemoglobina preoperatoria.
+
+## Reglas
+
+- No incluir nombres.
+- No incluir números de historia.
+- No copiar datos reales.
+```
+
+Mensaje clave:
+
+> Markdown es una historia clínica del proyecto: ordena información, deja trazabilidad y ayuda a que otra persona o una IA entiendan el caso.
+
+Para practicar, el alumno puede leer la guía específica del repositorio: `guia-markdown-medicos.md`.
+
+---
+
 ## 2. Agentes IA y Conectividad
 
 ### 2.1 Uso de agentes avanzados

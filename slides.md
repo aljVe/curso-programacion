@@ -398,22 +398,60 @@ Para clase: datos ficticios, no identificables.
 
 ---
 
-# Markdown: texto para humanos e IA
+# Mini-lección: Markdown
 
-Markdown es texto plano con estructura.
+Markdown es una forma sencilla de escribir texto con estructura.
 
-No es programar. Es escribir de forma que:
+No es programar.
+
+Es escribir documentos que entienden bien:
 
 - Una persona pueda leerlo.
 - Git pueda guardar cambios.
 - GitHub pueda mostrarlo bonito.
 - Un agente de IA pueda entender contexto.
 
-Ejemplos del curso: `README.md`, `slides.md`, `teoria.md`.
+Ejemplos del curso:
+
+`README.md` · `slides.md` · `teoria.md`
 
 ---
 
-# Chuleta Markdown
+# Por qué le gusta a la IA
+
+Un agente trabaja mejor si el contexto está ordenado.
+
+Markdown permite separar:
+
+- Objetivo.
+- Contexto.
+- Datos.
+- Restricciones.
+- Riesgos.
+- Criterios de aceptación.
+- Pasos de verificación.
+
+Un `.md` bien escrito evita conversaciones largas y confusas.
+
+---
+
+# Markdown como historia clínica
+
+Pensad en Markdown como la historia clínica del proyecto.
+
+Debe dejar claro:
+
+- Motivo de consulta: qué problema queremos resolver.
+- Antecedentes: contexto y restricciones.
+- Exploración: archivos, datos y flujo actual.
+- Plan: cambios pedidos.
+- Evolución: decisiones, pruebas y riesgos.
+
+La IA entiende mejor un caso bien presentado.
+
+---
+
+# Sintaxis mínima
 
 | Quiero escribir | Uso |
 |-----------------|-----|
@@ -426,7 +464,82 @@ Ejemplos del curso: `README.md`, `slides.md`, `teoria.md`.
 | Enlace | `[texto](https://...)` |
 | Tarea | `- [ ] revisar` |
 
-Un buen `.md` es contexto reutilizable para la IA.
+Con esto ya se puede documentar un proyecto.
+
+---
+
+# Un encargo en Markdown
+
+```markdown
+# Encargo
+
+Crear un prototipo educativo para consulta preoperatoria.
+
+## Restricciones
+
+- Usar solo datos ficticios.
+- No guardar información identificable.
+- Mantenerlo simple para médicos no técnicos.
+
+## Resultado esperado
+
+- Formulario.
+- Tabla resumen.
+- Riesgos y criterios de aceptación.
+```
+
+---
+
+# Antes y después
+
+Petición débil:
+
+> "Hazme una app para pacientes."
+
+Petición con Markdown:
+
+```markdown
+# Objetivo
+Prototipo docente con pacientes ficticios.
+
+## Datos
+edad, ASA, hemoglobina, tipo de cirugía.
+
+## Riesgos
+No usar datos reales. No dar recomendaciones clínicas automáticas.
+```
+
+La segunda instrucción da dirección.
+
+---
+
+# Checklist para agentes
+
+Antes de pedir cambios a una IA:
+
+- [ ] ¿He explicado el objetivo?
+- [ ] ¿He dicho qué archivos puede tocar?
+- [ ] ¿He prohibido datos reales?
+- [ ] ¿He definido qué significa "terminado"?
+- [ ] ¿He pedido verificación?
+- [ ] ¿He pedido resumen de riesgos?
+
+Esto también es Markdown.
+
+---
+
+# Actividad: crear contexto
+
+En parejas, escribid un mini `README.md`:
+
+1. Nombre del prototipo.
+2. Problema clínico que simula.
+3. Datos ficticios de entrada.
+4. Qué debe mostrar.
+5. Qué no debe hacer.
+6. Riesgos y validaciones.
+
+Después se lo daremos a un agente.
 
 ---
 

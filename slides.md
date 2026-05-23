@@ -407,9 +407,9 @@ Make es un servicio web. n8n puede usarse en cloud o instalarse/self-host.
     <img :src="'./downloads/make-access.png'" class="h-48 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
     <strong>Make</strong><br /><span>https://www.make.com/en/register</span>
   </a>
-  <a href="https://n8n.io/download/" target="_blank" class="download-card block text-inherit no-underline">
+  <a href="https://docs.n8n.io/hosting/installation/docker/" target="_blank" class="download-card block text-inherit no-underline">
     <img :src="'./downloads/n8n-download.png'" class="h-48 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
-    <strong>n8n</strong><br /><span>https://n8n.io/download/</span>
+    <strong>n8n</strong><br /><span>docs.n8n.io/hosting/installation/docker/</span>
   </a>
 </div>
 

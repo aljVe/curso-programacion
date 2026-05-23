@@ -83,36 +83,6 @@ layout: section
 
 ---
 
-# Qué es la IA generativa
-
-Un sistema capaz de crear contenido nuevo a partir de instrucciones.
-
-En este curso nos interesa porque puede ayudar a:
-
-- Explicar conceptos técnicos.
-- Transformar una idea clínica en requisitos.
-- Proponer una arquitectura.
-- Generar prototipos y documentación.
-- Revisar errores y riesgos.
-
----
-
-# Qué es un LLM
-
-Un LLM es un modelo entrenado para comprender y generar lenguaje natural y código.
-
-Puede actuar como:
-
-- Profesor.
-- Traductor clínico-técnico.
-- Asistente de diseño.
-- Revisor.
-- Generador de ejemplos.
-
-Pero también puede equivocarse.
-
----
-
 # El cambio importante
 
 Petición débil:

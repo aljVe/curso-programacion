@@ -221,6 +221,200 @@ Llegan cuando el problema lo justifica.
 
 ---
 
+<style>
+.download-card {
+  border-bottom: 0 !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.download-card span {
+  border-bottom: 0 !important;
+  color: #555;
+  text-decoration: none !important;
+  word-break: break-word;
+}
+</style>
+
+# Descargas: base mínima
+
+Capturas tomadas el 23/05/2026 desde páginas oficiales.
+
+<div class="grid grid-cols-3 gap-3 mt-3 text-[10px] leading-tight">
+  <a href="https://code.visualstudio.com/download" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/vscode-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>VS Code</strong><br /><span>https://code.visualstudio.com/download</span>
+  </a>
+  <a href="https://windsurf.com/download" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/windsurf-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Windsurf</strong><br /><span>https://windsurf.com/download</span>
+  </a>
+  <a href="https://git-scm.com/downloads" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/git-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Git</strong><br /><span>https://git-scm.com/downloads</span>
+  </a>
+  <a href="https://nodejs.org/en/download" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/nodejs-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Node.js</strong><br /><span>https://nodejs.org/en/download</span>
+  </a>
+  <a href="https://www.python.org/downloads/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/python-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Python</strong><br /><span>https://www.python.org/downloads/</span>
+  </a>
+  <div class="text-sm leading-snug opacity-80 pt-4">
+    Para la primera sesión: editor, Git, Node.js y Python. <br />
+    `npm` viene con Node.js. `pip` viene con Python.
+  </div>
+</div>
+
+---
+
+# Acceso web: sin instalar
+
+Estas herramientas se usan desde el navegador. No hay que buscar instalador.
+
+<div class="grid grid-cols-3 gap-3 mt-3 text-[10px] leading-tight">
+  <a href="https://chatgpt.com/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/chatgpt-access.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>ChatGPT</strong><br /><span>https://chatgpt.com/</span>
+  </a>
+  <a href="https://claude.ai/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/claude-access.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Claude</strong><br /><span>https://claude.ai/</span>
+  </a>
+  <a href="https://gemini.google.com/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/gemini-access.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Gemini</strong><br /><span>https://gemini.google.com/</span>
+  </a>
+  <a href="https://github.com/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/github-access.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>GitHub</strong><br /><span>https://github.com/</span>
+  </a>
+  <a href="https://colab.research.google.com/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/colab-access.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Google Colab</strong><br /><span>https://colab.research.google.com/</span>
+  </a>
+  <div class="text-sm leading-snug opacity-80 pt-4">
+    Útil para empezar sin preparar un entorno local complejo.
+  </div>
+</div>
+
+---
+
+# Editores y agentes
+
+Herramientas para trabajar sobre carpetas de código con ayuda de IA.
+
+<div class="grid grid-cols-3 gap-3 mt-3 text-[10px] leading-tight">
+  <a href="https://cursor.com/download" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/cursor-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Cursor</strong><br /><span>https://cursor.com/download</span>
+  </a>
+  <a href="https://antigravity.google/download" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/antigravity-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Antigravity</strong><br /><span>https://antigravity.google/download</span>
+  </a>
+  <a href="https://openai.com/codex/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/codex-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Codex</strong><br /><span>https://openai.com/codex/</span>
+  </a>
+  <a href="https://docs.anthropic.com/en/docs/claude-code/setup" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/claude-code-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Claude Code</strong><br /><span>docs.anthropic.com/.../claude-code/setup</span>
+  </a>
+  <a href="https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/index.md" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/gemini-cli-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Gemini CLI</strong><br /><span>github.com/google-gemini/gemini-cli</span>
+  </a>
+  <a href="https://cli.github.com/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/github-cli-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>GitHub CLI</strong><br /><span>https://cli.github.com/</span>
+  </a>
+</div>
+
+---
+
+# Datos, prototipos y entorno
+
+Herramientas habituales cuando el alumno empieza a trabajar con datos o apps pequeñas.
+
+<div class="grid grid-cols-3 gap-3 mt-3 text-[10px] leading-tight">
+  <a href="https://jupyter.org/install" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/jupyter-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Jupyter</strong><br /><span>https://jupyter.org/install</span>
+  </a>
+  <a href="https://docs.astral.sh/uv/getting-started/installation/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/uv-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>uv</strong><br /><span>docs.astral.sh/uv/.../installation</span>
+  </a>
+  <a href="https://docs.streamlit.io/get-started/installation" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/streamlit-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Streamlit</strong><br /><span>docs.streamlit.io/get-started/installation</span>
+  </a>
+  <a href="https://www.docker.com/products/docker-desktop/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/docker-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Docker Desktop</strong><br /><span>docker.com/products/docker-desktop/</span>
+  </a>
+  <a href="https://github.com/coreybutler/nvm-windows/releases/latest" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/nvm-windows-download.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>nvm-windows</strong><br /><span>github.com/coreybutler/nvm-windows/releases</span>
+  </a>
+  <a href="https://es.sli.dev/guide/install.html" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/slidev-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Slidev</strong><br /><span>https://es.sli.dev/guide/install.html</span>
+  </a>
+</div>
+
+---
+
+# CLI opcionales
+
+Se instalan desde terminal. No son necesarios para la primera práctica.
+
+<div class="grid grid-cols-3 gap-3 mt-3 text-[10px] leading-tight">
+  <a href="https://pnpm.io/installation" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/pnpm-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>pnpm</strong><br /><span>https://pnpm.io/installation</span>
+  </a>
+  <a href="https://yarnpkg.com/getting-started/install" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/yarn-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Yarn</strong><br /><span>https://yarnpkg.com/getting-started/install</span>
+  </a>
+  <a href="https://docs.netlify.com/cli/get-started/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/netlify-cli-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Netlify CLI</strong><br /><span>docs.netlify.com/cli/get-started/</span>
+  </a>
+  <a href="https://docs.railway.com/guides/cli" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/railway-cli-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Railway CLI</strong><br /><span>https://docs.railway.com/guides/cli</span>
+  </a>
+  <a href="https://github.com/mermaid-js/mermaid-cli" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/mermaid-cli-install.png'" class="h-28 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Mermaid CLI</strong><br /><span>github.com/mermaid-js/mermaid-cli</span>
+  </a>
+  <div class="text-sm leading-snug opacity-80 pt-4">
+    `npm`, `pip` y entornos virtuales se explican como comandos, no como programas aparte.
+  </div>
+</div>
+
+---
+
+# Automatización no-code
+
+Make es un servicio web. n8n puede usarse en cloud o instalarse/self-host.
+
+<div class="grid grid-cols-2 gap-5 mt-5 text-xs leading-tight">
+  <a href="https://www.make.com/en/register" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/make-access.png'" class="h-48 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>Make</strong><br /><span>https://www.make.com/en/register</span>
+  </a>
+  <a href="https://n8n.io/download/" target="_blank" class="download-card block text-inherit no-underline">
+    <img :src="'./downloads/n8n-download.png'" class="h-48 w-full object-cover object-top rounded-md border border-gray-200 shadow-sm" />
+    <strong>n8n</strong><br /><span>https://n8n.io/download/</span>
+  </a>
+</div>
+
+---
+
 # Este repositorio
 
 | Archivo | Función |

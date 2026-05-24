@@ -1,4 +1,6 @@
-#Conceptos
+# Conceptos
+
+## Alex
 ***LLM*** - Modelo de Lenguaje Grande. Modelo entrenado con una cantidad masiva de datos. Trabajan prediciendo el siguiente token en base a sus datos de entrenamiento. Básicamente, ChatGPT, Claude, Gemini, etc.
 
 > ⚠️ **NOTA PARA PPT:** Las diferencias prácticas entre modelos (Claude, ChatGPT, Gemini, Copilot) se desarrollarán en voz alta. Si se genera presentación, incluir una diapositiva de apoyo con tabla comparativa básica, no como contenido exhaustivo.
@@ -15,14 +17,20 @@
 
 ***Vibe Coding:*** Es una metodología de desarrollo de software que consiste en generar código usando la IA a través de prompts.
 
-***Niveles de vibe coding:***
+
+
+---
+## David
+
+
+(***Niveles de vibe coding:***
 Se pueden desarrollar programas con mayor o menor intervención por nuestra parte. La manera más sencilla son los artifacts. Empezaron en Claude pero se han extendido al resto de LLMs. Consisten en pequeños programas que se crean y ejecutan en la propia interfaz del LLM. Cada proveedor les ha dado un nombre distinto y en ocasiones requieren que se active alguna funcionalidad tipo canva para que se creen.
 
 Posteriormente podríamos pedirle a un LLM que nos cree un programa sencillo de archivo único, lo copiamos en el bloc de notas, lo guardamos con la extensión (.py; .html; .java, etc) que nos indique la IA y listo, a ejecutarlo.
 
 Luego vendrían IDEs tipo la nueva versión de antigravity, en la cual prácticamente no se ve el código y por último, los IDE con IA tipo Cursor o Antigravity IDE.
 
-Hay sistemas algo más complejos y menos "amigables" que consisten en programar a través de la terminal del ordenador. Esto se denomina "CLI" (Command Line Interface) y el ejemplo paradigmático sería Claude Code, aunque su entorno actual permite también trabajar con un entorno gráfico.
+Hay sistemas algo más complejos y menos "amigables" que consisten en programar a través de la terminal del ordenador. Esto se denomina "CLI" (Command Line Interface) y el ejemplo paradigmático sería Claude Code, aunque su entorno actual permite también trabajar con un entorno gráfico.)
 
 ---
 
@@ -38,10 +46,10 @@ Estos IDEs agénticos, para gente lega, principalmente serían Antigravity, que 
 ***Arquitectura muy muy básica:***
 Los programas tienen un frontend o interfaz, es lo que se ve de los programas.
 Posteriormente tienen un servidor o backend. Sería el centro del programa, lo que alberga su función propiamente dicha.
-Finalmente los programas pueden tener bases de datos (o no), que son archivos en los que se almacena información. Esto será clave para aquellos programas que requieran recordar información de una sesión a otra. También puede ser información clave para ejecutar los programas, si hacemos un programa que muestre dosis de perfusiones, podríamos hacer un archivo específico del que se recupere la información por si en un futuro queremos añadir nuevos fármacos sin tener que tocar todos los archivos que forman el programa.
+***Bases de datos:*** Finalmente los programas pueden tener bases de datos (o no), que son archivos en los que se almacena información. Esto será clave para aquellos programas que requieran recordar información de una sesión a otra. También puede ser información clave para ejecutar los programas, si hacemos un programa que muestre dosis de perfusiones, podríamos hacer un archivo específico del que se recupere la información por si en un futuro queremos añadir nuevos fármacos sin tener que tocar todos los archivos que forman el programa.
 
 ***MCP:***
-Los MCP o Model Context Protocol son protocolos que definen cómo un LLM puede exponer y usar herramientas externass. Si por ejemplo quisiérais que una IA que os habéis descargado en local y es muy sencillita use un programa que habéis creado, podríais pedirle a una IA mejor que cree el MCP para que esta pueda hacerlo.
+Los MCP o Model Context Protocol son protocolos que definen cómo un LLM puede exponer y usar herramientas externas. Ejemplo: flow con Mermaid o Google Calendar, etc.
 
 ***Lenguajes:***
 Cada lenguaje tiene sus características. Python por ejemplo es uno de los lenguajes "más sencillos" pero altamente funcional y es uno de los que mejor manejan los sistemas de IA. Otros son HTML, en los que se basa la mayoría de los frontend de los programas. Java por ejemplo suele estar compartimentalizado en paquetes, muy usado a nivel profesional. JavaScript es un lenguaje que se usa para frontend pero que también puede usarse en backend (Node.js) y que tiene como característica que se ejecuta en el navegador web (y no tanto en el ordenador como tal).
@@ -50,20 +58,16 @@ Si en algún momento queréis crear un programa para que se suba en vuestra intr
 
 Para pequeños ejecutables, recomiendo crear archivos tipo python, y posteriormente pedirle a la IA que te explique cómo convertirlo en un archivo ejecutable (que en Windows sería un .exe).
 
-***Skills (Claude):*** instrucciones/prompts preconfigurados que le dicen a Claude cómo comportarse en una tarea concreta. Pueden ser simples instrucciones o comandos de programación concretos.
+***Skills (Claude):*** instrucciones/prompts preconfigurados que le dicen a Claude cómo comportarse en una tarea concreta. Pueden ser simples instrucciones o comandos de programación concretos. Ejemplo: AI template.
 
-***Extensiones (Antigravity):*** Las extensiones son el equivalente a las skills en Antigravity. Permiten conectar Antigravity con otras herramientas. 
+***Extensiones (IDE):*** Las extensiones son el equivalente a las skills en Antigravity. Permiten conectar Antigravity con otras herramientas. 
 
 
 ### Ideas para programas
 ***Hipomagnesemia e hipofosfatemia*** Te descargas las páginas directamente de UpToDate y las pones en una carpeta y haces un primer programa.
 
-***Cálculo de dosis de perfusiones***
-
-***Ejemplos que hayamos hecho*** Sencillo puede ser el de la ecocardio que hice.
-
 ***Descargar cualquier protocolo de alguien del público y hacer un programa***
 
-***Redactador de informes*** Algo tipo lo de la enfermera de IC, casillas de Si/No y con eso un texto bonito redactado.
+***Cálculo de dosis de perfusiones***
 
-Para hacer más fáciles estas cosas, si son que necesitan información previa, podríamos crear una carpeta de drive pública, ponemos el QR, que accedan, se descarguen el contenido y con eso se pongan a hacerlo.
+***Programa con base de datos con fármacos supabase*** 

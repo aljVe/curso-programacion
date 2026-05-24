@@ -1,0 +1,19 @@
+{
+  "model": "gpt-5.5",
+  "tools": [
+    {
+      "type": "shell",
+      "environment": {
+        "type": "local",
+        "skills": [
+          {
+            "name": "text-deduplicator",
+            "description": "Detect and remove unnecessary duplicated text in Markdown or plain text while preserving meaning, structure, warnings, and citations.",
+            "path": ".agents/skills/text-deduplicator"
+          }
+        ]
+      }
+    }
+  ],
+  "input": "Use the text-deduplicator skill to review slides.md and teoria.md. Report unnecessary repeated text and propose conservative edits before changing files."
+}

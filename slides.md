@@ -121,6 +121,144 @@ La responsabilidad clínica no desaparece.
 
 ---
 
+# Conceptos base del curso
+
+| Concepto | Traducción práctica |
+|----------|---------------------|
+| LLM | Modelo de lenguaje grande, como ChatGPT, Claude o Gemini |
+| Prompt | Instrucción que damos al modelo |
+| Token | Unidad mínima de texto que procesa el modelo |
+| Ventana de contexto | Memoria activa disponible durante una sesión |
+
+<small>Las diferencias prácticas entre modelos se explican mejor con ejemplos y demostración, no como tabla exhaustiva.</small>
+
+---
+
+# Qué es un lenguaje de programación
+
+Un lenguaje de programación permite expresar instrucciones que ejecuta un ordenador.
+
+Para entendernos:
+
+- Es un idioma formal que el ordenador puede interpretar.
+- Cada lenguaje tiene ventajas, límites y ecosistema propio.
+- La IA ayuda a escribirlo, pero conviene saber qué piezas está tocando.
+- Para ejecutar código suele hacer falta instalar el lenguaje o sus paquetes.
+
+---
+
+# IDE: el Word para programar
+
+Un IDE permite crear, modificar y organizar software.
+
+Puede incluir:
+
+- Explorador de archivos.
+- Autocompletado.
+- Detección de errores.
+- Terminal integrada.
+- Control de versiones.
+- Ayuda de IA sobre el proyecto.
+
+Sí, se puede programar en un bloc de notas. Pero para aprender y revisar, un IDE da mucho más contexto.
+
+---
+
+# Git y GitHub
+
+**Git** trabaja en local y guarda el historial de cambios del proyecto.
+
+**GitHub** es un repositorio online donde se pueden publicar proyectos públicos o privados.
+
+En la práctica sirven para:
+
+- Recuperar versiones anteriores.
+- Revisar qué ha cambiado.
+- Colaborar con otras personas.
+- Pedir revisión antes de mezclar cambios.
+- Enseñar a la IA el estado real de un proyecto.
+
+---
+
+# Vibe coding
+
+Programar con IA a través de instrucciones en lenguaje natural.
+
+Hay varios niveles:
+
+1. Artifacts o pequeñas apps dentro del chat.
+2. Archivo único generado por IA y ejecutado localmente.
+3. IDEs agénticos con poco contacto directo con el código.
+4. IDEs con IA como Cursor, Windsurf o Antigravity IDE.
+5. Agentes por terminal o CLI, como Claude Code o Codex.
+
+Cuanto más poder damos al agente, más importante es revisar.
+
+---
+
+# Chatbots y agentes
+
+**Chatbot**
+
+- Recibe un prompt.
+- Responde texto, código o explicación.
+- Normalmente no actúa sobre el proyecto por sí mismo.
+
+**Agente**
+
+- Lee archivos.
+- Usa herramientas.
+- Puede ejecutar comandos.
+- Propone y aplica cambios.
+- Verifica y resume el resultado.
+
+Un IDE con IA se acerca más a un agente que a un chat convencional.
+
+---
+
+# Arquitectura muy básica
+
+| Capa | Qué significa |
+|------|---------------|
+| Frontend | Lo que ve y usa la persona |
+| Backend | La lógica principal del programa |
+| Base de datos | Donde se guarda información persistente |
+
+No todos los programas necesitan base de datos.
+
+Para una demo docente, a veces basta con un archivo CSV, JSON o datos ficticios en memoria.
+
+---
+
+# MCP, skills y extensiones
+
+Los modelos generan texto. Las herramientas les permiten actuar.
+
+| Elemento | Idea principal |
+|----------|----------------|
+| MCP | Protocolo para conectar modelos con herramientas y contexto |
+| Skill | Instrucciones especializadas para una tarea concreta |
+| Extensión | Integración que conecta el entorno con otras capacidades |
+
+Más integración significa más superficie de riesgo: archivos, comandos, internet, secretos y datos sensibles.
+
+---
+
+# Lenguajes habituales
+
+| Lenguaje | Uso frecuente |
+|----------|---------------|
+| Python | Scripts, datos, automatización y prototipos |
+| HTML | Estructura básica de páginas web |
+| JavaScript | Frontend web y también backend con Node.js |
+| Java | Software empresarial y proyectos muy estructurados |
+
+Para pequeños ejecutables, Python suele ser una buena primera opción.
+
+Antes de publicar en una intranet, hay que conocer frontend, backend, servidor y versiones permitidas.
+
+---
+
 # Ecosistema de herramientas
 
 | Tipo | Para qué sirve |

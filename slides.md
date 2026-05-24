@@ -149,18 +149,22 @@ Para entendernos:
 
 # IDE: el Word para programar
 
-Un IDE permite crear, modificar y organizar software.
+Un IDE es el programa donde se escribe y se organiza el código.
 
-Puede incluir:
+Para entendernos:
 
-- Explorador de archivos.
-- Autocompletado.
-- Detección de errores.
-- Terminal integrada.
-- Control de versiones.
-- Ayuda de IA sobre el proyecto.
+- Word sirve para escribir documentos.
+- Excel sirve para trabajar con tablas.
+- Un IDE sirve para trabajar con programas.
 
-Sí, se puede programar en un bloc de notas. Pero para aprender y revisar, un IDE da mucho más contexto.
+Ayuda a:
+
+- Ver los archivos del proyecto.
+- Escribir código con ayuda visual.
+- Detectar errores mientras escribimos.
+- Pedir ayuda a la IA con más contexto.
+
+No hace falta dominarlo entero. Basta con saber abrir una carpeta, leer archivos y pedir cambios con cuidado.
 
 ---
 

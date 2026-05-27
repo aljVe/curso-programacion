@@ -3,6 +3,9 @@
     "build": "slidev build slides.md"
   },
   "dependencies": {
+    "@oxc-parser/binding-win32-x64-msvc": "^0.133.0",
+    "@rolldown/binding-win32-x64-msvc": "^1.0.2",
+    "@rollup/rollup-win32-x64-msvc": "^4.60.4",
     "@slidev/cli": "^52.14.0",
     "@slidev/theme-default": "^0.25.0"
   }
